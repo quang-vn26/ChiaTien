@@ -2,8 +2,8 @@ import { getRequestConfig } from 'next-intl/server'
 import { getUserLocale } from './lib/locale'
 
 export const localeLabels = {
-  'en-US': 'English',
   'vi-VN': 'Tiếng Việt',
+  'en-US': 'English',
  
 } as const
 

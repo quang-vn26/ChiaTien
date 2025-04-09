@@ -1,9 +1,9 @@
 {
   "Homepage": {
     "title": "Chia <strong>Chi phí</strong> với <strong>Bạn bè & Gia đình</strong>",
-    "description": "Chào mừng đến với <strong>Spliit</strong> của bạn!",
+    "description": "Chào mừng bạn đến với <strong>Spliit</strong>!",
     "button": {
-      "groups": "Đến nhóm",
+      "groups": "Xem nhóm",
       "github": "GitHub"
     }
   },
@@ -11,23 +11,23 @@
     "groups": "Nhóm"
   },
   "Footer": {
-    "madeIn": "Được tạo tại Montréal, Québec 🇨🇦",
-    "builtBy": "Được xây dựng bởi <author>Sebastien Castiel</author> và <source>các cộng tác viên</source>"
+    "madeIn": "Được tạo bởi Quang",
+    "builtBy": "Xây dựng bởi <source>các cộng tác viên</source>"
   },
   "Expenses": {
     "title": "Chi phí",
-    "description": "Đây là các chi phí mà bạn đã tạo cho nhóm của mình.",
-    "create": "Tạo chi phí",
-    "createFirst": "Tạo chi phí đầu tiên",
-    "noExpenses": "Nhóm của bạn chưa có chi phí nào.",
+    "description": "Đây là các khoản chi phí bạn đã tạo cho nhóm của mình.",
+    "create": "Thêm chi phí",
+    "createFirst": "Thêm chi phí đầu tiên",
+    "noExpenses": "Nhóm của bạn chưa có khoản chi phí nào.",
     "exportJson": "Xuất ra JSON",
     "searchPlaceholder": "Tìm kiếm chi phí…",
     "ActiveUserModal": {
       "title": "Bạn là ai?",
-      "description": "Hãy cho chúng tôi biết bạn là người tham gia nào để chúng tôi có thể tùy chỉnh cách hiển thị thông tin.",
+      "description": "Hãy cho chúng tôi biết bạn là thành viên nào để chúng tôi có thể tùy chỉnh cách hiển thị thông tin.",
       "nobody": "Tôi không muốn chọn ai cả",
       "save": "Lưu thay đổi",
-      "footer": "Cài đặt này có thể được thay đổi sau này trong cài đặt nhóm."
+      "footer": "Bạn có thể thay đổi cài đặt này sau trong phần cài đặt nhóm."
     },
     "Groups": {
       "upcoming": "Sắp tới",
@@ -40,18 +40,18 @@
     }
   },
   "ExpenseCard": {
-    "paidBy": "Được trả bởi <strong>{paidBy}</strong> cho <paidFor></paidFor>",
+    "paidBy": "Được thanh toán bởi <strong>{paidBy}</strong> cho <paidFor></paidFor>",
     "receivedBy": "Được nhận bởi <strong>{paidBy}</strong> cho <paidFor></paidFor>",
     "yourBalance": "Số dư của bạn:"
   },
   "Groups": {
     "myGroups": "Nhóm của tôi",
-    "create": "Tạo",
+    "create": "Tạo mới",
     "loadingRecent": "Đang tải các nhóm gần đây…",
     "NoRecent": {
       "description": "Bạn chưa truy cập nhóm nào gần đây.",
-      "create": "Tạo một nhóm",
-      "orAsk": "hoặc yêu cầu bạn bè gửi cho bạn liên kết đến một nhóm hiện có."
+      "create": "Tạo nhóm mới",
+      "orAsk": "hoặc yêu cầu bạn bè gửi cho bạn liên kết đến nhóm hiện có."
     },
     "recent": "Nhóm gần đây",
     "starred": "Nhóm đã đánh dấu",
@@ -60,7 +60,7 @@
     "unarchive": "Bỏ lưu trữ nhóm",
     "removeRecent": "Xóa khỏi nhóm gần đây",
     "RecentRemovedToast": {
-      "title": "Nhóm đã bị xóa",
+      "title": "Đã xóa nhóm",
       "description": "Nhóm đã bị xóa khỏi danh sách nhóm gần đây của bạn.",
       "undoAlt": "Hoàn tác việc xóa nhóm",
       "undo": "Hoàn tác"
@@ -85,7 +85,7 @@
     },
     "InformationField": {
       "label": "Thông tin nhóm",
-      "placeholder": "Thông tin nào liên quan đến người tham gia nhóm?"
+      "placeholder": "Thông tin nào liên quan đến các thành viên trong nhóm?"
     },
     "CurrencyField": {
       "label": "Ký hiệu tiền tệ",
@@ -93,23 +93,23 @@
       "description": "Chúng tôi sẽ sử dụng nó để hiển thị số tiền."
     },
     "Participants": {
-      "title": "Người tham gia",
-      "description": "Nhập tên cho mỗi người tham gia.",
-      "protectedParticipant": "Người tham gia này là một phần của chi phí và không thể bị xóa.",
+      "title": "Thành viên",
+      "description": "Nhập tên cho mỗi thành viên.",
+      "protectedParticipant": "Thành viên này đã có trong chi phí và không thể xóa.",
       "new": "Mới",
-      "add": "Thêm người tham gia",
+      "add": "Thêm thành viên",
       "John": "John",
       "Jane": "Jane",
       "Jack": "Jack"
     },
     "Settings": {
       "title": "Cài đặt cục bộ",
-      "description": "Những cài đặt này được đặt cho mỗi thiết bị và được sử dụng để tùy chỉnh trải nghiệm của bạn.",
+      "description": "Những cài đặt này được áp dụng cho mỗi thiết bị và được sử dụng để tùy chỉnh trải nghiệm của bạn.",
       "ActiveUserField": {
-        "label": "Người dùng đang hoạt động",
-        "placeholder": "Chọn người tham gia",
+        "label": "Thành viên đang hoạt động",
+        "placeholder": "Chọn thành viên",
         "none": "Không có",
-        "description": "Người dùng được sử dụng làm mặc định để thanh toán chi phí."
+        "description": "Thành viên được sử dụng làm mặc định để thanh toán chi phí."
       },
       "save": "Lưu",
       "saving": "Đang lưu…",
@@ -120,12 +120,12 @@
   },
   "ExpenseForm": {
     "Income": {
-      "create": "Tạo thu nhập",
-      "edit": "Chỉnh sửa thu nhập",
+      "create": "Thêm thu nhập",
+      "edit": "Sửa thu nhập",
       "TitleField": {
         "label": "Tiêu đề thu nhập",
         "placeholder": "Nhà hàng tối thứ hai",
-        "description": "Nhập mô tả cho thu nhập."
+        "description": "Nhập mô tả cho khoản thu nhập."
       },
       "DateField": {
         "label": "Ngày thu nhập",
@@ -134,7 +134,7 @@
       "categoryFieldDescription": "Chọn danh mục thu nhập.",
       "paidByField": {
         "label": "Được nhận bởi",
-        "description": "Chọn người tham gia đã nhận thu nhập."
+        "description": "Chọn thành viên đã nhận thu nhập."
       },
       "paidFor": {
         "title": "Nhận cho",
@@ -144,12 +144,12 @@
       "attachDescription": "Xem và đính kèm biên lai vào thu nhập."
     },
     "Expense": {
-      "create": "Tạo chi phí",
-      "edit": "Chỉnh sửa chi phí",
+      "create": "Thêm chi phí",
+      "edit": "Sửa chi phí",
       "TitleField": {
         "label": "Tiêu đề chi phí",
         "placeholder": "Nhà hàng tối thứ hai",
-        "description": "Nhập mô tả cho chi phí."
+        "description": "Nhập mô tả cho khoản chi phí."
       },
       "DateField": {
         "label": "Ngày chi phí",
@@ -157,12 +157,12 @@
       },
       "categoryFieldDescription": "Chọn danh mục chi phí.",
       "paidByField": {
-        "label": "Được trả bởi",
-        "description": "Chọn người tham gia đã thanh toán chi phí."
+        "label": "Được thanh toán bởi",
+        "description": "Chọn thành viên đã thanh toán chi phí."
       },
       "paidFor": {
-        "title": "Trả cho",
-        "description": "Chọn người mà chi phí được trả cho."
+        "title": "Thanh toán cho",
+        "description": "Chọn người mà chi phí được thanh toán cho."
       },
       "splitModeDescription": "Chọn cách chia chi phí.",
       "attachDescription": "Xem và đính kèm biên lai vào chi phí."
@@ -179,7 +179,7 @@
     "notesField": {
       "label": "Ghi chú"
     },
-    "selectNone": "Không chọn",
+    "selectNone": "Bỏ chọn tất cả",
     "selectAll": "Chọn tất cả",
     "shares": "phần",
     "advancedOptions": "Tùy chọn chia nâng cao…",
@@ -194,7 +194,7 @@
     "DeletePopup": {
       "label": "Xóa",
       "title": "Xóa chi phí này?",
-      "description": "Bạn có thực sự muốn xóa chi phí này không? Hành động này không thể hoàn tác.",
+      "description": "Bạn có chắc chắn muốn xóa chi phí này không? Hành động này không thể hoàn tác.",
       "yes": "Có",
       "cancel": "Hủy"
     },
@@ -244,10 +244,145 @@
   },
   "Balances": {
     "title": "Số dư",
-    "description": "Đây là số tiền mà mỗi người tham gia đã trả hoặc được trả.",
+    "description": "Đây là số tiền mà mỗi thành viên đã thanh toán hoặc được thanh toán.",
     "Reimbursements": {
       "title": "Đề xuất hoàn trả",
-      "description": "Đây là các đề xuất cho việc hoàn trả tối ưu giữa những người tham gia."
+      "description": "Đây là các đề xuất cho việc hoàn trả tối ưu giữa các thành viên.",
+      "noImbursements": "Có vẻ như nhóm của bạn không cần hoàn trả gì cả 😁",
+      "owes": "<strong>{from}</strong> nợ <strong>{to}</strong>",
+      "markAsPaid": "Đánh dấu đã thanh toán"
+    }
+  },
+  "Stats": {
+    "title": "Thống kê",
+    "Totals": {
+      "title": "Tổng cộng",
+      "description": "Tổng kết chi tiêu của toàn bộ nhóm.",
+      "groupSpendings": "Tổng chi tiêu của nhóm",
+      "groupEarnings": "Tổng thu nhập của nhóm",
+      "yourSpendings": "Tổng chi tiêu của bạn",
+      "yourEarnings": "Tổng thu nhập của bạn",
+      "yourShare": "Phần của bạn"
+    }
+  },
+  "Activity": {
+    "title": "Hoạt động",
+    "description": "Tổng quan về tất cả hoạt động trong nhóm này.",
+    "noActivity": "Chưa có hoạt động nào trong nhóm của bạn.",
+    "someone": "Ai đó",
+    "settingsModified": "Cài đặt nhóm đã được sửa đổi bởi <strong>{participant}</strong>.",
+    "expenseCreated": "Chi phí <em>{expense}</em> đã được tạo bởi <strong>{participant}</strong>.",
+    "expenseUpdated": "Chi phí <em>{expense}</em> đã được cập nhật bởi <strong>{participant}</strong>.",
+    "expenseDeleted": "Chi phí <em>{expense}</em> đã bị xóa bởi <strong>{participant}</strong>.",
+    "Groups": {
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua",
+      "earlierThisWeek": "Đầu tuần này",
+      "lastWeek": "Tuần trước",
+      "earlierThisMonth": "Đầu tháng này",
+      "lastMonth": "Tháng trước",
+      "earlierThisYear": "Đầu năm nay",
+      "lastYear": "Năm ngoái",
+      "older": "Cũ hơn"
+    }
+  },
+  "Information": {
+    "title": "Thông tin",
+    "description": "Sử dụng nơi này để thêm bất kỳ thông tin nào có thể liên quan đến các thành viên trong nhóm.",
+    "empty": "Chưa có thông tin nhóm."
+  },
+  "Settings": {
+    "title": "Cài đặt"
+  },
+  "Share": {
+    "title": "Chia sẻ",
+    "description": "Để các thành viên khác có thể xem nhóm và thêm chi phí, hãy chia sẻ URL của nó với họ.",
+    "warning": "Cảnh báo!",
+    "warningHelp": "Mọi người có URL của nhóm sẽ có thể xem và chỉnh sửa chi phí. Hãy chia sẻ một cách thận trọng!"
+  },
+  "SchemaErrors": {
+    "min1": "Nhập ít nhất một ký tự.",
+    "min2": "Nhập ít nhất hai ký tự.",
+    "max5": "Nhập tối đa năm ký tự.",
+    "max50": "Nhập tối đa 50 ký tự.",
+    "duplicateParticipantName": "Đã có thành viên khác sử dụng tên này.",
+    "titleRequired": "Vui lòng nhập tiêu đề.",
+    "invalidNumber": "Số không hợp lệ.",
+    "amountRequired": "Bạn phải nhập số tiền.",
+    "amountNotZero": "Số tiền không được bằng 0.",
+    "amountTenMillion": "Số tiền phải nhỏ hơn 10,000,000.",
+    "paidByRequired": "Bạn phải chọn một thành viên.",
+    "paidForMin1": "Chi phí phải được thanh toán cho ít nhất một thành viên.",
+    "noZeroShares": "Tất cả các phần phải lớn hơn 0.",
+    "amountSum": "Tổng số tiền phải bằng số tiền chi phí.",
+    "percentageSum": "Tổng phần trăm phải bằng 100."
+  },
+  "Categories": {
+    "search": "Tìm kiếm danh mục...",
+    "noCategory": "Không tìm thấy danh mục.",
+    "Uncategorized": {
+      "heading": "Chưa phân loại",
+      "General": "Chung",
+      "Payment": "Thanh toán"
+    },
+    "Entertainment": {
+      "heading": "Giải trí",
+      "Entertainment": "Giải trí",
+      "Games": "Trò chơi",
+      "Movies": "Phim ảnh",
+      "Music": "Âm nhạc",
+      "Sports": "Thể thao"
+    },
+    "Food and Drink": {
+      "heading": "Ăn uống",
+      "Food and Drink": "Ăn uống",
+      "Dining Out": "Ăn ngoài",
+      "Groceries": "Tạp hóa",
+      "Liquor": "Đồ uống có cồn"
+    },
+    "Home": {
+      "heading": "Nhà cửa",
+      "Home": "Nhà cửa",
+      "Electronics": "Điện tử",
+      "Furniture": "Nội thất",
+      "Household Supplies": "Đồ dùng gia đình",
+      "Maintenance": "Bảo trì",
+      "Mortgage": "Thế chấp",
+      "Pets": "Thú cưng",
+      "Rent": "Thuê nhà",
+      "Services": "Dịch vụ"
+    },
+    "Life": {
+      "heading": "Cuộc sống",
+      "Childcare": "Chăm sóc trẻ em",
+      "Clothing": "Quần áo",
+      "Education": "Giáo dục",
+      "Gifts": "Quà tặng",
+      "Insurance": "Bảo hiểm",
+      "Medical Expenses": "Chi phí y tế",
+      "Taxes": "Thuế"
+    },
+    "Transportation": {
+      "heading": "Di chuyển",
+      "Transportation": "Di chuyển",
+      "Bicycle": "Xe đạp",
+      "Bus/Train": "Xe buýt/Tàu hỏa",
+      "Car": "Ô tô",
+      "Gas/Fuel": "Xăng dầu",
+      "Hotel": "Khách sạn",
+      "Parking": "Đỗ xe",
+      "Plane": "Máy bay",
+      "Taxi": "Taxi"
+    },
+    "Utilities": {
+      "heading": "Tiện ích",
+      "Utilities": "Tiện ích",
+      "Cleaning": "Dọn dẹp",
+      "Electricity": "Điện",
+      "Heat/Gas": "Nhiệt/Khí đốt",
+      "Trash": "Rác",
+      "TV/Phone/Internet": "TV/Điện thoại/Internet",
+      "Water": "Nước"
     }
   }
 } 
