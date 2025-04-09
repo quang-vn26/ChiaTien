@@ -1,0 +1,253 @@
+{
+  "Homepage": {
+    "title": "Chia <strong>Chi phí</strong> với <strong>Bạn bè & Gia đình</strong>",
+    "description": "Chào mừng đến với <strong>Spliit</strong> của bạn!",
+    "button": {
+      "groups": "Đến nhóm",
+      "github": "GitHub"
+    }
+  },
+  "Header": {
+    "groups": "Nhóm"
+  },
+  "Footer": {
+    "madeIn": "Được tạo tại Montréal, Québec 🇨🇦",
+    "builtBy": "Được xây dựng bởi <author>Sebastien Castiel</author> và <source>các cộng tác viên</source>"
+  },
+  "Expenses": {
+    "title": "Chi phí",
+    "description": "Đây là các chi phí mà bạn đã tạo cho nhóm của mình.",
+    "create": "Tạo chi phí",
+    "createFirst": "Tạo chi phí đầu tiên",
+    "noExpenses": "Nhóm của bạn chưa có chi phí nào.",
+    "exportJson": "Xuất ra JSON",
+    "searchPlaceholder": "Tìm kiếm chi phí…",
+    "ActiveUserModal": {
+      "title": "Bạn là ai?",
+      "description": "Hãy cho chúng tôi biết bạn là người tham gia nào để chúng tôi có thể tùy chỉnh cách hiển thị thông tin.",
+      "nobody": "Tôi không muốn chọn ai cả",
+      "save": "Lưu thay đổi",
+      "footer": "Cài đặt này có thể được thay đổi sau này trong cài đặt nhóm."
+    },
+    "Groups": {
+      "upcoming": "Sắp tới",
+      "thisWeek": "Tuần này",
+      "earlierThisMonth": "Đầu tháng này",
+      "lastMonth": "Tháng trước",
+      "earlierThisYear": "Đầu năm nay",
+      "lastYera": "Năm ngoái",
+      "older": "Cũ hơn"
+    }
+  },
+  "ExpenseCard": {
+    "paidBy": "Được trả bởi <strong>{paidBy}</strong> cho <paidFor></paidFor>",
+    "receivedBy": "Được nhận bởi <strong>{paidBy}</strong> cho <paidFor></paidFor>",
+    "yourBalance": "Số dư của bạn:"
+  },
+  "Groups": {
+    "myGroups": "Nhóm của tôi",
+    "create": "Tạo",
+    "loadingRecent": "Đang tải các nhóm gần đây…",
+    "NoRecent": {
+      "description": "Bạn chưa truy cập nhóm nào gần đây.",
+      "create": "Tạo một nhóm",
+      "orAsk": "hoặc yêu cầu bạn bè gửi cho bạn liên kết đến một nhóm hiện có."
+    },
+    "recent": "Nhóm gần đây",
+    "starred": "Nhóm đã đánh dấu",
+    "archived": "Nhóm đã lưu trữ",
+    "archive": "Lưu trữ nhóm",
+    "unarchive": "Bỏ lưu trữ nhóm",
+    "removeRecent": "Xóa khỏi nhóm gần đây",
+    "RecentRemovedToast": {
+      "title": "Nhóm đã bị xóa",
+      "description": "Nhóm đã bị xóa khỏi danh sách nhóm gần đây của bạn.",
+      "undoAlt": "Hoàn tác việc xóa nhóm",
+      "undo": "Hoàn tác"
+    },
+    "AddByURL": {
+      "button": "Thêm bằng URL",
+      "title": "Thêm nhóm bằng URL",
+      "description": "Nếu một nhóm được chia sẻ với bạn, bạn có thể dán URL của nó vào đây để thêm vào danh sách của bạn.",
+      "error": "Rất tiếc, chúng tôi không thể tìm thấy nhóm từ URL bạn cung cấp…"
+    },
+    "NotFound": {
+      "text": "Nhóm này không tồn tại.",
+      "link": "Đi đến các nhóm đã truy cập gần đây"
+    }
+  },
+  "GroupForm": {
+    "title": "Thông tin nhóm",
+    "NameField": {
+      "label": "Tên nhóm",
+      "placeholder": "Kỳ nghỉ hè",
+      "description": "Nhập tên cho nhóm của bạn."
+    },
+    "InformationField": {
+      "label": "Thông tin nhóm",
+      "placeholder": "Thông tin nào liên quan đến người tham gia nhóm?"
+    },
+    "CurrencyField": {
+      "label": "Ký hiệu tiền tệ",
+      "placeholder": "$, €, £…",
+      "description": "Chúng tôi sẽ sử dụng nó để hiển thị số tiền."
+    },
+    "Participants": {
+      "title": "Người tham gia",
+      "description": "Nhập tên cho mỗi người tham gia.",
+      "protectedParticipant": "Người tham gia này là một phần của chi phí và không thể bị xóa.",
+      "new": "Mới",
+      "add": "Thêm người tham gia",
+      "John": "John",
+      "Jane": "Jane",
+      "Jack": "Jack"
+    },
+    "Settings": {
+      "title": "Cài đặt cục bộ",
+      "description": "Những cài đặt này được đặt cho mỗi thiết bị và được sử dụng để tùy chỉnh trải nghiệm của bạn.",
+      "ActiveUserField": {
+        "label": "Người dùng đang hoạt động",
+        "placeholder": "Chọn người tham gia",
+        "none": "Không có",
+        "description": "Người dùng được sử dụng làm mặc định để thanh toán chi phí."
+      },
+      "save": "Lưu",
+      "saving": "Đang lưu…",
+      "create": "Tạo",
+      "creating": "Đang tạo…",
+      "cancel": "Hủy"
+    }
+  },
+  "ExpenseForm": {
+    "Income": {
+      "create": "Tạo thu nhập",
+      "edit": "Chỉnh sửa thu nhập",
+      "TitleField": {
+        "label": "Tiêu đề thu nhập",
+        "placeholder": "Nhà hàng tối thứ hai",
+        "description": "Nhập mô tả cho thu nhập."
+      },
+      "DateField": {
+        "label": "Ngày thu nhập",
+        "description": "Nhập ngày nhận được thu nhập."
+      },
+      "categoryFieldDescription": "Chọn danh mục thu nhập.",
+      "paidByField": {
+        "label": "Được nhận bởi",
+        "description": "Chọn người tham gia đã nhận thu nhập."
+      },
+      "paidFor": {
+        "title": "Nhận cho",
+        "description": "Chọn người mà thu nhập được nhận cho."
+      },
+      "splitModeDescription": "Chọn cách chia thu nhập.",
+      "attachDescription": "Xem và đính kèm biên lai vào thu nhập."
+    },
+    "Expense": {
+      "create": "Tạo chi phí",
+      "edit": "Chỉnh sửa chi phí",
+      "TitleField": {
+        "label": "Tiêu đề chi phí",
+        "placeholder": "Nhà hàng tối thứ hai",
+        "description": "Nhập mô tả cho chi phí."
+      },
+      "DateField": {
+        "label": "Ngày chi phí",
+        "description": "Nhập ngày thanh toán chi phí."
+      },
+      "categoryFieldDescription": "Chọn danh mục chi phí.",
+      "paidByField": {
+        "label": "Được trả bởi",
+        "description": "Chọn người tham gia đã thanh toán chi phí."
+      },
+      "paidFor": {
+        "title": "Trả cho",
+        "description": "Chọn người mà chi phí được trả cho."
+      },
+      "splitModeDescription": "Chọn cách chia chi phí.",
+      "attachDescription": "Xem và đính kèm biên lai vào chi phí."
+    },
+    "amountField": {
+      "label": "Số tiền"
+    },
+    "isReimbursementField": {
+      "label": "Đây là khoản hoàn trả"
+    },
+    "categoryField": {
+      "label": "Danh mục"
+    },
+    "notesField": {
+      "label": "Ghi chú"
+    },
+    "selectNone": "Không chọn",
+    "selectAll": "Chọn tất cả",
+    "shares": "phần",
+    "advancedOptions": "Tùy chọn chia nâng cao…",
+    "SplitModeField": {
+      "label": "Chế độ chia",
+      "evenly": "Chia đều",
+      "byShares": "Không đều – Theo phần",
+      "byPercentage": "Không đều – Theo phần trăm",
+      "byAmount": "Không đều – Theo số tiền",
+      "saveAsDefault": "Lưu làm tùy chọn chia mặc định"
+    },
+    "DeletePopup": {
+      "label": "Xóa",
+      "title": "Xóa chi phí này?",
+      "description": "Bạn có thực sự muốn xóa chi phí này không? Hành động này không thể hoàn tác.",
+      "yes": "Có",
+      "cancel": "Hủy"
+    },
+    "attachDocuments": "Đính kèm tài liệu",
+    "create": "Tạo",
+    "creating": "Đang tạo…",
+    "save": "Lưu",
+    "saving": "Đang lưu…",
+    "cancel": "Hủy",
+    "reimbursement": "Hoàn trả"
+  },
+  "ExpenseDocumentsInput": {
+    "TooBigToast": {
+      "title": "Tệp quá lớn",
+      "description": "Kích thước tệp tối đa bạn có thể tải lên là {maxSize}. Tệp của bạn là ${size}."
+    },
+    "ErrorToast": {
+      "title": "Lỗi khi tải lên tài liệu",
+      "description": "Đã xảy ra lỗi khi tải lên tài liệu. Vui lòng thử lại sau hoặc chọn một tệp khác.",
+      "retry": "Thử lại"
+    }
+  },
+  "CreateFromReceipt": {
+    "Dialog": {
+      "triggerTitle": "Tạo chi phí từ biên lai",
+      "title": "Tạo từ biên lai",
+      "description": "Trích xuất thông tin chi phí từ ảnh biên lai.",
+      "body": "Tải lên ảnh biên lai và chúng tôi sẽ quét nó để trích xuất thông tin chi phí nếu có thể.",
+      "selectImage": "Chọn ảnh…",
+      "titleLabel": "Tiêu đề:",
+      "categoryLabel": "Danh mục:",
+      "amountLabel": "Số tiền:",
+      "dateLabel": "Ngày:",
+      "editNext": "Bạn sẽ có thể chỉnh sửa thông tin chi phí tiếp theo.",
+      "continue": "Tiếp tục"
+    },
+    "unknown": "Không xác định",
+    "TooBigToast": {
+      "title": "Tệp quá lớn",
+      "description": "Kích thước tệp tối đa bạn có thể tải lên là {maxSize}. Tệp của bạn là ${size}."
+    },
+    "ErrorToast": {
+      "title": "Lỗi khi tải lên tài liệu",
+      "description": "Đã xảy ra lỗi khi tải lên tài liệu. Vui lòng thử lại sau hoặc chọn một tệp khác.",
+      "retry": "Thử lại"
+    }
+  },
+  "Balances": {
+    "title": "Số dư",
+    "description": "Đây là số tiền mà mỗi người tham gia đã trả hoặc được trả.",
+    "Reimbursements": {
+      "title": "Đề xuất hoàn trả",
+      "description": "Đây là các đề xuất cho việc hoàn trả tối ưu giữa những người tham gia."
+    }
+  }
+} 
