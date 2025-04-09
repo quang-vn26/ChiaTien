@@ -55,8 +55,8 @@ export function getBalances(
   for (const participantId in balances) {
     // add +0 to avoid negative zeros
     balances[participantId].paidFor =
-      Math.round(balances[participantId].paidFor) + 0
-    balances[participantId].paid = Math.round(balances[participantId].paid) + 0
+      Math.ceil(balances[participantId].paidFor) + 0
+    balances[participantId].paid = Math.ceil(balances[participantId].paid) + 0
 
     balances[participantId].total =
       balances[participantId].paid - balances[participantId].paidFor
