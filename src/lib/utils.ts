@@ -39,8 +39,8 @@ export function formatCurrency(
   fractions?: boolean,
 ) {
   const format = new Intl.NumberFormat(locale, {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
     style: 'currency',
     // '€' will be placed in correct position
     currency: 'EUR',

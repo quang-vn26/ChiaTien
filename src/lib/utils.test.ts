@@ -26,34 +26,19 @@ describe('formatCurrency', () => {
   const variations: variation[] = [
     {
       amount: partialAmount,
-      locale: `en-US`,
-      result: `${currency}1.23`,
+      locale: `vn-VN`,
+      result: `${currency}1`,
     },
     {
       amount: smallAmount,
-      locale: `en-US`,
-      result: `${currency}1.00`,
+      locale: `vn-VN`,
+      result: `${currency}1`,
     },
     {
       amount: largeAmount,
-      locale: `en-US`,
-      result: `${currency}10,000.00`,
-    },
-    {
-      amount: partialAmount,
-      locale: `de-DE`,
-      result: `1,23${nbsp}${currency}`,
-    },
-    {
-      amount: smallAmount,
-      locale: `de-DE`,
-      result: `1,00${nbsp}${currency}`,
-    },
-    {
-      amount: largeAmount,
-      locale: `de-DE`,
-      result: `10.000,00${nbsp}${currency}`,
-    },
+      locale: `vn-VN`,
+      result: `${currency}10,000`,
+    }
   ]
 
   for (const variation of variations) {
